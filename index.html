@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colin Smith Personal Portfolio Website</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <!-- start navbar -->
+    <div class="all-main">
+        <div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+         </div>
+        <nav class="navbar navbar-dark bg-black fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><h2>Colin Smith</h2></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h2 class="navbar-brand-2" id="offcanvasDarkNavbarLabel">Colin Smith</h2>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#About"><i class="fa-solid fa-user"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services"><i class="fa-solid fa-list"></i> Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Contact"><i class="fa-solid fa-message"></i> Contact</a>
+                      </li>
+                  </ul>
+                  <h4 class="fs-6 pt-3 p-2">© 2023 Powered By <a class="a-link" href="https://github.com/georgeakram-ga">George Akram</a></h4>
+                </div>
+              </div>
+            </div>
+          </nav>
+    <!-- end navbar -->
+
+    <!-- start header -->
+    <div id="Home" class="container">
+        <div class="row row-cols-1 row-cols-lg-2 text-center">
+          <div class="col">
+            <h1 class="h1-main-text">Hello, I'm <span>Colin Smith</span></h1>
+            <h2 class="h2-main-text mb-5">UI/UX Designer & Frontend Developer from the USA </h2>
+            <a class="btn-main" href="#About">About Me</a>
+          </div>
+          <div class="col">
+            <img src="images/Colin Smith.avif" class="main-img">
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- end header -->
+
+     <!-- start About -->
+    <div class="About">
+      <br id="About">
+      <br><br><br>
+        <h1>About Me</h1>
+        <h2 class="h1-about-text">Hello, I'm <span>Colin Smith</span></h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting dummy text industry
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+            <div class="container text-left">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                  <div class="col mt-5">
+                <h6><span>Date of Birth :</span> 5 October 2002</h6>
+                <h6><span>Website :</span> www.domain.com</h6>
+                <h6><span>Degree :</span> CS</h6>
+                <h6 class="pb-5"><span>City :</span> USA</h6>
+                <a class="btn-About-main" href="#">Download CV</a>
+                </div>
+                <div class="col mt-5">
+                <h6><span>Ago :</span> 16</h6>
+                <h6><span>Email :</span> test@gmail.com</h6>
+                <h6><span>Phone :</span> +63 000 1999</h6>
+                <h6><span>freelance :</span> Available</h6>
+                </div>
+                <div class="col mt-3">
+                <h6><span>HTML</span></h6>
+                <div class="progress mb-3" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-success" style="width: 80%"></div>
+                </div>
+                <h6><span>CSS</span></h6>
+                <div class="progress mb-3" role="progressbar" aria-label="Info example" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-info" style="width: 65%"></div>
+                </div>
+                <h6><span>Js</span></h6>
+                <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-warning" style="width: 50%"></div>
+                </div>
+                <h6><span>Figma</span></h6>
+                <div class="progress mb-5" role="progressbar" aria-label="Danger example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-danger" style="width: 70%"></div>
+                </div>
+        </div>
+    </div>
+     <!-- end About -->
+
+     <!-- start Services -->
+     <br id="Services">
+  <div class="Services">
+    <h1 class="mt-5 mb-5">Services</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col text-center">
+        <div class="card h-100">
+          <i class="fa-solid fa-paintbrush"></i>
+          <div class="card-body">
+            <h5 class="card-title">web design</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card h-100">
+          <i class="fa-solid fa-tv"></i>
+          <div class="card-body">
+            <h5 class="card-title">front end</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card h-100">
+          <i class="fa-solid fa-code"></i>
+          <div class="card-body">
+            <h5 class="card-title">back end</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col text-center mt-5">
+        <div class="card h-100">
+          <i class="fa-brands fa-microsoft"></i>
+          <div class="card-body">
+            <h5 class="card-title">software</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center mt-5">
+        <div class="card h-100">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <div class="card-body">
+            <h5 class="card-title">mobile developer</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center mt-5">
+        <div class="card h-100">
+          <i class="fa-brands fa-wordpress"></i>
+          <div class="card-body">
+            <h5 class="card-title">wordpress</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- end Services -->
+
+     <!-- start Portfolio -->
+     <div class="Portfolio">
+      <br id="Portfolio">
+      <br>
+      <h1 class="mb-5 mt-5">My List Project :)</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/project1.jpg" class="card-img-top" alt="project1">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/project2.jpg" class="card-img-top" alt="project2">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/project3.jpg" class="card-img-top" alt="project3">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/project4.jpeg" class="card-img-top" alt="project4">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/project5.jpg" class="card-img-top" alt="project5">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/project6.jpg" class="card-img-top" alt="project6">
+          </div>
+        </div>
+      </div>  
+    </div>
+     <!-- end Portfolio -->
+     
+     <!-- start Contact -->
+     <div class="Contact">
+      <br id="Contact">
+      <h1 class="mt-5 mb-5" >Contact</h1>
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col">
+          <i class="fa-solid fa-phone"></i>
+           <h3>Call Us On</h3>
+           <h6>+90 435484687</h6>
+          </div>
+          <div class="col">
+          <i class="fa-solid fa-location-dot"></i>
+           <h3>Office</h3>
+          <h6>44 street, USA</h6>
+          </div>
+          <div class="col">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <h6>info@gmail.com</h6>
+          </div>
+          <div class="col">
+          <i class="fa-solid fa-earth-americas"></i>
+          <h3>Website</h3>
+          <h6>www.domain.com</h6>
+          </div>
+        </div>
+      </div>
+     </div>
+     <br>
+     <h5 class="text-contact">Send A Message</h5>
+     <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" placeholder="your Email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-12">
+        <label for="your message" class="form-label">your message</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="your message">
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary-contact">Submit</button>
+      </div>
+    </form>
+     <!-- end Contact -->
+     <h4 class="ga">© 2023 Powered By <a class="a-link-end" href="https://github.com/georgeakram-ga">George Akram</a></h4>
+ 
+
+     <!-- start loader -->
+
+<style>
+  .o-page-loader {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity .5s;
+  background: #111;
+  z-index: 999;
+  }
+  .o-page-loader--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  }
+
+</style>
+<div class="o-page-loader">
+  <div class="o-page-loader--content">
+     <div class="o-page-loader--spinner"></div>
+     <div class="o-page-loader--message">
+        <center>
+           <h6 class="navbar-brand-2">Colin Smith</h6>
+           <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+           </div>
+        </center>
+     </div>
+  </div>
+</div>
+<script>
+          /* Start Main Preloader Hide and load Code */
+          (function(loader) {
+        
+        window.addEventListener('beforeunload', function(e) {
+        activateLoader();
+        });
+        
+        window.addEventListener('load', function(e) {
+        deactivateLoader();
+        });
+        
+        function activateLoader() {
+        loader.style.display = 'block';
+        loader.style.opacity = 1;
+        }
+        
+        function deactivateLoader() {
+
+        setTimeout(function() {
+        deactivate();
+        }, 1000);
+        
+        function deactivate() {
+        loader.style.opacity = 0;
+        loader.addEventListener('transitionend', function() {
+        loader.style.display = 'none';
+             document.getElementById("navbar").style.display = "block"; 
+        }, false);
+        }
+        }
+        
+        })(document.querySelector('.o-page-loader'));
+        /* End Main Preloader Hide and load Code */
+</script>
+<!-- end loader -->
+
+    <!-- js files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+    </body>
+    </html>

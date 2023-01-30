@@ -1,0 +1,358 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+        font-size: calc(20px + 18vh);
+        line-height: calc(20px + 20vh);
+      /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+          0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+        color: #fccaff; */
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+          color: #fff6a9;
+        font-family: "Sacramento", cursive;
+        text-align: center;
+        animation: blink 12s infinite;
+        -webkit-animation: blink 12s infinite;
+      }
+      
+      @-webkit-keyframes blink {
+        20%,
+        24%,
+        55% {
+          color: #111;
+          text-shadow: none;
+        }
+      
+        0%,
+        19%,
+        21%,
+        23%,
+        25%,
+        54%,
+        56%,
+        100% {
+      /*     color: #fccaff;
+          text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+            0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+          color: #fff6a9;
+        }
+      }
+      
+      @keyframes blink {
+        20%,
+        24%,
+        55% {
+          color: #111;
+          text-shadow: none;
+        }
+      
+        0%,
+        19%,
+        21%,
+        23%,
+        25%,
+        54%,
+        56%,
+        100% {
+      /*     color: #fccaff;
+          text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+            0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+          color: #fff6a9;
+        }
+      }
+.navbar-brand-2 {
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    line-height: calc(20px + 20vh);
+  /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+    color: #fccaff; */
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+  }
+  
+  @-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+  /*     color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+  
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+  /*     color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+.nav-link {
+    font-size: 25px;
+    padding: 10px;
+    color: #ff8d00;
+}
+.nav-link:hover {
+    color: white;
+}
+.container-fluid {
+    background-color: #111;
+}
+.offcanvas-header {
+    background-color: #111;
+}
+.offcanvas-body {
+    background-color: #111;
+}
+.main-img {
+    width: 300px;
+    margin-top: 25%;
+    border-radius: 5px;
+    margin-bottom: 8.8%;
+}
+.h1-main-text {
+    margin-top: 40%;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+}
+.h2-main-text {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+.h1-main-text span {
+    font-family: 'Anton', sans-serif;
+    color: #c77612;
+    font-size: 40px;
+}
+
+.all-main {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(33, 46, 221) 3%, rgb(0, 0, 0) 38%, #690909 68%, rgb(10, 160, 10) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+.btn-main {
+    color: white;
+    background-color: #ff8d00;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn-main:hover {
+    background-color: #111;
+    color: #ff8d00;
+}
+.a-link {
+    text-decoration: none;
+    color: #ff8d00;
+}
+.a-link:hover {
+    color: white;
+}
+.About {
+  background-color: #111;
+  padding: 20px;
+}
+.About h1 {
+  color: #ff8d00;
+}
+.About h2 {
+  color: white;
+}
+.About p {
+  color: white;
+  max-width: 800px;
+}
+.About h6 {
+  color: rgb(151, 151, 151);
+}
+.About span {
+  color: #ffffff;
+}
+.progress-bar {
+  color: #ff8d00;
+}
+.btn-About-main {
+  color: white;
+  background-color: #ff8d00;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+}
+.btn-About-main:hover {
+  color: #ff8d00;
+  background-color: white;
+}
+.card svg {
+  color: #ff8d00;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 2%;
+}
+.card h5 {
+  color: #048eff;
+  font-size: 30px;
+}
+.card {
+  background-color: rgb(39, 39, 39);
+}
+.card-img-top {
+  border-radius: 12px;
+}
+.Contact h3 {
+  color: #ff8d00;
+}
+.Contact svg {
+  color: green;
+  font-size: 35px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.text-contact {
+  color: green;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.form-label {
+  color: #ff8d00;
+  font-size: 20px;
+}
+.btn-primary-contact {
+  background-color: #ff0000;
+  font-size: 18px;
+  color: white;
+}
+.btn-primary-contact:hover {
+  background-color: #ff8d00;
+  border-radius: red;
+}
+.a-link-end {
+  color: #ff8d00;
+  text-decoration: none;
+}
+.ga {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.spinner-grow {
+  color: #ff8d00;
+}
