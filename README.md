@@ -1,3 +1,3 @@
 # Responsive Personal Portfolio Website
 
-### <a href="https://georgeakram-ga.github.io/Responsive-Personal-Portfolio-Website/">See the template</a>
+### <a href="https://georgeakram1.github.io/Responsive-Personal-Portfolio-Website/">See the template</a>
